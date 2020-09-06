@@ -16,7 +16,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@product-management/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@product-management/api-interfaces": [
+        "libs/api-interfaces/src/index.ts"
+      ],
+      "@product-management/models": ["libs/models/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

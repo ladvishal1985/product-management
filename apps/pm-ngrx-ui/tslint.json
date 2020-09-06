@@ -1,8 +1,8 @@
 {
   "extends": "../../tslint.json",
   "rules": {
-    "directive-selector": [true, "attribute", "productManagement", "camelCase"],
-    "component-selector": [true, "element", "product-management", "kebab-case"]
+    "directive-selector": [true, "attribute", "pm", "camelCase"],
+    "component-selector": [true, "element", "pm", "kebab-case"]
   },
   "linterOptions": {
     "exclude": ["!**/*"]
